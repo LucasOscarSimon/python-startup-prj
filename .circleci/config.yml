@@ -2,7 +2,8 @@ version: 2.1
 
 orbs:
   python: circleci/python@0.2.1
-
+  sonarqube: clicklogiq/sonarqube@0.0.2
+  
 jobs:
   build-and-test:
     executor: python/default
